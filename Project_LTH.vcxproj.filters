@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{7b3fdd37-7394-4dcd-b031-4d5ad73b1cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameBase">
+      <UniqueIdentifier>{293b9f96-3c8e-4bf2-928a-79c2e771a6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain">
+      <UniqueIdentifier>{b8fc4ba8-1c87-46e9-bc05-a4f7abe9d50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{1d722681-8c2c-4a8a-a1b9-0b369203a366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputManager">
+      <UniqueIdentifier>{3f77d16f-57f0-4e77-8835-2a696526f1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{89bde8fd-f398-422e-b800-56b0b0ce2a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\VertexBufferTest">
+      <UniqueIdentifier>{58850d04-da98-442b-b720-6a25be4f602e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\PaintTest">
+      <UniqueIdentifier>{4e829f76-47cb-47cf-898b-123bc26b85ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\WVPtest">
+      <UniqueIdentifier>{aecd4360-9b3a-483c-a145-f2beae58394a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SingleTon">
+      <UniqueIdentifier>{5ce489d0-b80d-47e4-8321-074653c567c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Timer">
+      <UniqueIdentifier>{9c5e5576-e13b-4058-96c1-094a48848404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameError">
+      <UniqueIdentifier>{263ba417-f932-459a-a1ce-54ad8efcf409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Graphics">
+      <UniqueIdentifier>{f00b3a6f-88cd-470c-9169-31f58adbda31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Texture">
+      <UniqueIdentifier>{8781e54e-1c64-46b1-aa27-d1d1db17eb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\SolarSystem">
+      <UniqueIdentifier>{2951eab9-d782-4718-be39-46abd3623eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Animator">
+      <UniqueIdentifier>{d25a297d-e15a-4bf5-bc4b-acc9dda959eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Camera">
+      <UniqueIdentifier>{0ddea4f1-59de-42a3-a798-259398830584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\XmlTest">
+      <UniqueIdentifier>{1bef51ea-c633-4fa1-b0bd-0dccbc17b136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Xml">
+      <UniqueIdentifier>{f0677d77-0753-4dd9-a587-a0738f8f752f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\World">
+      <UniqueIdentifier>{221a9cdb-8709-4573-8f46-be02e5bd03ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameSys.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameError.h">
+      <Filter>Core\GameError</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>GameBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTestScene.h">
+      <Filter>Test\PaintTest</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferTest.h">
+      <Filter>Test\VertexBufferTest</Filter>
+    </ClInclude>
+    <ClInclude Include="WVPtest.h">
+      <Filter>Test\WVPtest</Filter>
+    </ClInclude>
+    <ClInclude Include="SRTTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>Core\SingleTon</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Core\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Core\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Test\SolarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureTest1.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystem.h">
+      <Filter>Test\SolarSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Core\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="AniTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlTest.h">
+      <Filter>Test\XmlTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Test\XmlTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml.h">
+      <Filter>Core\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Core\World</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObject.h">
+      <Filter>Test\XmlTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>GameBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTestScene.cpp">
+      <Filter>Test\PaintTest</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferTest.cpp">
+      <Filter>Test\VertexBufferTest</Filter>
+    </ClCompile>
+    <ClCompile Include="WVPtest.cpp">
+      <Filter>Test\WVPtest</Filter>
+    </ClCompile>
+    <ClCompile Include="SRTTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Core\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Core\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Test\SolarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTest1.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystem.cpp">
+      <Filter>Test\SolarSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Core\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="AniTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlTest.cpp">
+      <Filter>Test\XmlTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Test\XmlTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml.cpp">
+      <Filter>Core\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Core\World</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObject.cpp">
+      <Filter>Test\XmlTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
